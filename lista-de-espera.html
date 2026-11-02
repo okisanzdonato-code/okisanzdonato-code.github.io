@@ -26,11 +26,11 @@
 <meta name="twitter:title" content="Lista de espera de medias de recuperación | NextStep">
 <meta name="twitter:description" content="Sumate a la lista de espera de NextStep y sé de los primeros en probar las medias inteligentes de recuperación muscular en Buenos Aires.">
 <meta name="twitter:image" content="https://okisanzdonato-code.github.io/nextstep-redes.jpg">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;display=swap">
+<link rel="preload" href="poppins-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="poppins-bold.woff2" as="font" type="font/woff2" crossorigin>
 <style>
-:root{--navy:#0B2550;--blue:#3C78D8;--sky:#A4C2F4;--ice:#EEF4FC;--ink:#1D2939;--muted:#4A5568;--line:#D9E2EF}
+@font-face{font-family:Poppins;src:url(poppins-regular.woff2) format('woff2');font-weight:400;font-display:optional}@font-face{font-family:Poppins;src:url(poppins-bold.woff2) format('woff2');font-weight:600 700;font-display:optional}
+:root{--navy:#0B2550;--blue:#2457B3;--sky:#A4C2F4;--ice:#EEF4FC;--ink:#1D2939;--muted:#4A5568;--line:#D9E2EF}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:Poppins,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.6;font-size:17px}
 img{max-width:100%;height:auto;display:block}
@@ -108,7 +108,7 @@ footer a{color:#fff}
 <p class="note">Formulario de demostración: en este sitio modelo los datos no se envían ni se guardan.</p>
 </form>
 </div>
-<figure><img src="medias-inteligentes-recuperacion-muscular-nextstep.webp" alt="Par de medias inteligentes NextStep de recuperación muscular, blancas con el rayo azul de la marca" width="720" height="1090" fetchpriority="high" class="round"><figcaption>Medias inteligentes NextStep.</figcaption></figure>
+<figure><img src="medias-inteligentes-recuperacion-muscular-nextstep.webp" alt="Par de medias inteligentes NextStep de recuperación muscular, blancas con el rayo azul de la marca" width="560" height="848" fetchpriority="high" class="round"><figcaption>Medias inteligentes NextStep.</figcaption></figure>
 </div></section>
 <script>
 document.getElementById('lista').addEventListener('submit',function(e){e.preventDefault();var f=e.target;if(!f.nombre.value||!f.email.value||f.email.value.indexOf('@')<1){f.reportValidity&&f.reportValidity();return;}document.getElementById('ok').style.display='block';f.reset();});
